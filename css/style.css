@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,9 +11,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav ul li {
+/* nav ul {
     display: flex;
     justify-content: flex-start;
+} */
+
+.left-nav {
+    display: flex;
+    /* justify-content: start; */
 }
 
 .links {
@@ -22,6 +28,10 @@ nav ul li {
 
 ul li {
     list-style: none;
+    padding: 20px;
+    font-size: .85rem;
+    font-weight: lighter;
+
 }
 
 ul li a {
