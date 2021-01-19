@@ -18,12 +18,12 @@ body {
 
 .left-nav {
     display: flex;
-    /* justify-content: start; */
+    justify-content: start;
 }
 
-.links {
+.right-nav {
     display: flex;
-    justify-content: flex-end;
+    margin-left: 950px;
 }
 
 ul li {
