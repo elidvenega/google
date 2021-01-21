@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -72,10 +73,10 @@ ul li a {
 
 input {
     border: none;
-    padding: 10px;
+    padding: 21px;
     margin: 10px;
     height: 20px;
-    width: 500px;
+    width: 570px;
     border: 1px solid #eaeaea;
     outline: none;
 }
@@ -109,8 +110,15 @@ input[type="submit"]:hover {
     padding: 15px;
 }
 
-.buttons .btn {
+.btn {
     border-style: none;
+    background-color: #f8f9fa;
     padding: 10px;
     margin: 3px;
+}
+
+.btn:hover {
+    background-color: #f8f9fa;
+    font-size: 15px;
+    border: 1px solid #f8f9fa;
 }
