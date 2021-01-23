@@ -53,7 +53,7 @@ ul li a {
 
 .google {
     padding: 25px;
-    margin-top: 80px;
+    margin-top: 75px;
 
 }
 
@@ -138,7 +138,10 @@ input[type="submit"]:hover {
 
 
 #footer {
-    margin-top: 170px;
+    background-color: #f2f2f2;
+    margin-top: 140px; 
+    /* height: 100px; */
+    padding: 25px;
 }
 
 #footer a {
@@ -155,7 +158,17 @@ input[type="submit"]:hover {
     
     .right-nav {
         display: flex;
-        margin-left: 90px;
+        margin-left: 50px;
     }
     
+    input {
+        border: none;
+        padding: 15px;
+        margin: 10px;
+        height: 45px;
+        width: 410px;
+        border: 1px solid #eaeaea;
+        outline: none;
+        border-radius: 30px;
+    }
 }
